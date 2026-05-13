@@ -1,0 +1,13 @@
+{
+  "name": "docker-notes-api",
+  "version": "1.0.0",
+  "description": "REST API для нотаток з Docker та PostgreSQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
